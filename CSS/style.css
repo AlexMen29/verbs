@@ -1,0 +1,54 @@
+.verb-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;  /* Reducir padding en móviles */
+    margin: 4px 0;  /* Menor margen */
+    text-align: center;
+    background-color: #f8f9fa;
+    font-size: 14px; /* Tamaño de fuente más pequeño en móviles */
+
+    transition: all 0.3s ease;
+}
+
+.verb-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Opcional: Ajustar para pantallas más grandes */
+@media (min-width: 768px) {
+    .verb-card {
+        padding: 15px;
+        font-size: 16px;
+    }
+}
+
+        .base-form {
+            background-color: #56be84;
+        }
+        .irregular-form {
+            background-color: #29bbd4;
+        }
+        .selected {
+            border: 3px solid #4c199e !important;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+        .matched {
+            background-color: #498858 !important;
+            border-color: #c3e6cb !important;
+            opacity: 0.6;
+        }
+        .verb-card:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        #reset-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 25px;
+        }
+        footer {
+            margin-top: 2rem;
+            padding: 1rem;
+            text-align: center;
+        }
